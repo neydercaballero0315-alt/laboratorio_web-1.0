@@ -20,7 +20,7 @@ public class LoginServlet extends HttpServlet {
 protected void doPost(HttpServletRequest request, HttpServletResponse response)
         throws ServletException, IOException {
     
-    System.out.println(">>> ¡SÍ ENTRÓ AL SERVLET DE LOGIN! <<<"); // <-- Agrega esta línea aquí
+    System.out.println(">>> ¡SÍ ENTRÓ ! <<<"); // <-- Agrega esta línea aquí
     
     String correo = request.getParameter("correo");
     String password = request.getParameter("password");
